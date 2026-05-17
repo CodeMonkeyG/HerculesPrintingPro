@@ -54,15 +54,18 @@ All commands for artisan, node, npm, or anything similar should all take place w
 ---
 
 ## 5. Development Milestones
-1.  **Phase 1: Infrastructure Setup** * Initialize Git repository.
+1.  **Phase 1: Infrastructure Setup** [COMPLETE]
+    * Initialize Git repository.
     * Draft `docker-compose.yml` and `Dockerfile` configurations for Vue, Bagisto, Postgres, and Nginx.
     * Configure Nginx routing logic.
-2.  **Phase 2: Backend Foundations**
+2.  **Phase 2: Backend Foundations** [COMPLETE]
     * Install and configure Bagisto within the Docker environment.
     * Connect Bagisto to PostgreSQL.
     * Set up basic product catalog and pricing rules.
-3.  **Phase 3: Frontend Development**
-    * Initialize Vue application.
+3.  **Phase 3: Frontend Development** [IN PROGRESS]
+    * Initialize Vue application with Vuetify 3 (Material Design).
+    * Build core pages (Home, About, Contact) in plain JavaScript.
+    * Integrate Google reCAPTCHA v2 for quote requests.
     * Build product selection UI and file upload component.
     * Integrate Bagisto API for cart and checkout flow.
 4.  **Phase 4: Middleware & Dropship Integration**
