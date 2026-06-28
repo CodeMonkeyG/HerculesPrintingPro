@@ -3,7 +3,7 @@
     <v-app-bar color='primary' elevation='4'>
       <v-container class='d-flex align-center'>
         <v-app-bar-title class='font-weight-bold text-uppercase' style='letter-spacing: 2px;'>
-          Hercules Printing
+          Hercules Printing Pro
         </v-app-bar-title>
 
         <v-spacer></v-spacer>

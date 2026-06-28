@@ -1,17 +1,17 @@
 <template>
-  <v-sheet class='bg-black text-white py-16' elevation='0'>
-    <v-container>
+  <v-sheet class='bg-black text-white d-flex align-center' elevation='0'>
+    <v-container class='py-6 py-md-0'>
       <v-row align='center' justify='center'>
         <v-col cols='12' md='10' class='text-center'>
-          <h1 class='text-h2 font-weight-black mb-6 text-uppercase' style='letter-spacing: 4px;'>
-            Hercules Printing Pro
-          </h1>
+          <img src="/src/assets/hercules.png" alt="Hercules Printing Pro Logo" class="hero-image">
           <p class='text-h5 mb-8 text-grey-lighten-1'>
-            Precision. Quality. Fast Turnaround.
+            Precision. Quality. Speed.
           </p>
-          <v-btn color='white' variant='outlined' size='x-large' to='/contact' class='px-8'>
-            Request a Quote
-          </v-btn>
+          <p class='text-h5 mb-8 text-grey-lighten-1'>
+            <v-btn color='white' variant='outlined' size='x-large' to='/contact' class='px-8'>
+              Request a Quote
+            </v-btn>
+          </p>
         </v-col>
       </v-row>
     </v-container>
@@ -28,3 +28,11 @@
     </v-row>
   </v-container>
 </template>
+
+<style scoped>
+.hero-image {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+</style>
