@@ -48,7 +48,7 @@
 
           <v-card class='bg-grey-lighten-4 pa-4 mb-8' border elevation='0'>
             <Checkbox
-              @verify='onVerify'
+              v-model='form.captchaToken'
               @expired='onExpired'
             ></Checkbox>
           </v-card>
@@ -59,10 +59,21 @@
             block
             size='x-large'
             elevation='2'
+            :loading='isSubmitting'
+            :disabled='isSubmitting'
           >
             Send Quote Request
           </v-btn>
         </v-form>
+
+        <v-snackbar
+          v-model='toast.show'
+          :color='toast.color'
+          :timeout='4500'
+          location='bottom'
+        >
+          {{ toast.message }}
+        </v-snackbar>
       </v-col>
     </v-row>
   </v-container>
@@ -73,6 +84,14 @@ import { reactive, ref } from 'vue';
 import { Checkbox } from 'vue-recaptcha';
 
 const contactForm = ref(null);
+const isSubmitting = ref(false);
+const toast = reactive({
+  show: false,
+  message: '',
+  color: 'success'
+});
+
+const apiBaseUrl = (import.meta.env.VITE_BACKEND_URL || window.location.origin).replace(/\/$/, '');
 
 const form = reactive({
   name: '',
@@ -91,20 +110,55 @@ const services = [
   'Other'
 ];
 
-const onVerify = (response) => {
-  form.captchaToken = response;
-};
-
 const onExpired = () => {
   form.captchaToken = '';
 };
 
-const submitForm = () => {
+const showToast = (message, color = 'success') => {
+  toast.message = message;
+  toast.color = color;
+  toast.show = true;
+};
+
+const submitForm = async () => {
   if (!form.captchaToken) {
-    alert('Please complete the captcha.');
+    showToast('Please complete the captcha.', 'warning');
     return;
   }
-  console.log('Form Submitted:', form);
-  alert('Thank you! Your quote request has been sent.');
+
+  isSubmitting.value = true;
+
+  try {
+    const response = await fetch(`${apiBaseUrl}/api/contact`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name: form.name,
+        email: form.email,
+        service: form.service,
+        message: form.message,
+        captchaToken: form.captchaToken
+      })
+    });
+
+    if (!response.ok) {
+      throw new Error('Failed to submit contact form.');
+    }
+
+    showToast('Thank you! Your quote request has been sent.', 'success');
+
+    form.name = '';
+    form.email = '';
+    form.service = null;
+    form.message = '';
+    form.captchaToken = '';
+  } catch (error) {
+    console.error(error);
+    showToast('We could not send your request right now. Please try again shortly.', 'error');
+  } finally {
+    isSubmitting.value = false;
+  }
 };
 </script>
