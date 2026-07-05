@@ -33,6 +33,11 @@ WORKDIR /var/www
 
 # Copy existing configuration
 COPY php.ini /usr/local/etc/php/conf.d/custom.ini
+COPY entrypoint.sh /usr/local/bin/hercules-entrypoint
+
+RUN chmod +x /usr/local/bin/hercules-entrypoint
+
+ENTRYPOINT ["/usr/local/bin/hercules-entrypoint"]
 
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
