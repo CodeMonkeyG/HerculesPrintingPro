@@ -20,11 +20,13 @@ class ContactUs extends Mailable
      */
     public function envelope(): Envelope
     {
+        $contactEmailDetails = core()->getContactEmailDetails();
+
         return new Envelope(
             to: [
                 new Address(
-                    core()->getAdminEmailDetails()['email'],
-                    core()->getAdminEmailDetails()['name']
+                    $contactEmailDetails['email'],
+                    $contactEmailDetails['name']
                 ),
             ],
             subject: trans('shop::app.emails.contact-us.inquiry-from').' '.$this->contactUs['name'].' '.trans('shop::app.emails.contact-us.contact-from'),
