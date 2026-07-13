@@ -8,5 +8,8 @@ export default defineConfig({
     vue(),
     vuetify({ autoImport: true }),
   ],
+  server: {
+    allowedHosts: ['herculesprintingpro.com', 'www.herculesprintingpro.com'],
+  },
 })
 
