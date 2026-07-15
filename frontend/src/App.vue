@@ -1,16 +1,24 @@
 <template>
   <v-app>
-    <v-app-bar color='primary' elevation='4'>
-      <v-container class='d-flex align-center'>
-        <v-app-bar-title class='font-weight-bold text-uppercase' style='letter-spacing: 2px;'>
+    <v-app-bar color='primary' elevation='4' :height="xs ? 112 : 64">
+      <v-container :class="['d-flex align-center', xs ? 'flex-column justify-center py-2' : 'justify-space-between']" fluid class="px-4 py-0">
+        <div
+          class='font-weight-bold text-uppercase text-center text-sm-left'
+          :style="{
+            letterSpacing: '2px',
+            fontSize: xs ? '1.1rem' : '1.25rem',
+            width: xs ? '100%' : 'auto',
+            marginBottom: xs ? '8px' : '0'
+          }"
+        >
           Hercules Printing Pro
-        </v-app-bar-title>
+        </div>
 
-        <v-spacer></v-spacer>
-
-        <v-btn variant='text' to='/' class='mx-1'>Home</v-btn>
-        <v-btn variant='text' to='/about' class='mx-1'>About</v-btn>
-        <v-btn variant='text' to='/contact' class='mx-1'>Contact</v-btn>
+        <div :class="['d-flex align-center', xs ? 'w-100 justify-space-between' : '']">
+          <v-btn variant='text' to='/' class='mx-1' :class="{ 'flex-grow-1': xs }">Home</v-btn>
+          <v-btn variant='text' to='/about' class='mx-1' :class="{ 'flex-grow-1': xs }">About</v-btn>
+          <v-btn variant='text' to='/contact' class='mx-1' :class="{ 'flex-grow-1': xs }">Contact</v-btn>
+        </div>
       </v-container>
     </v-app-bar>
 
@@ -29,8 +37,11 @@
 </template>
 
 <script setup>
+import { useDisplay } from 'vuetify'
 import { useRecaptchaProvider } from 'vue-recaptcha';
+
 useRecaptchaProvider();
+const { xs } = useDisplay()
 </script>
 
 <style>
