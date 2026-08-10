@@ -1,0 +1,18 @@
+# Gitleaks Configuration
+title = "Gitleaks allowlist configuration"
+
+[allowlist]
+description = "Allowlist test credentials, test fixtures, and demo data false positives"
+paths = [
+    '''backend/packages/Webkul/Installer/src/Data/demo-products\.json''',
+    '''backend/packages/Webkul/Admin/tests/Feature/Configuration/Customer/CaptchaConfigurationTest\.php''',
+]
+stopwords = [
+    "AIzaSyD-test-api-key-123",
+    "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI",
+    "6LcwDjotAAAAACOXLoiG5f0lqPCF3084RT07PtjL",
+    "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_NEW",
+]
+regexes = [
+    '''"url_key":\s*"[^"]+"''',
+]
