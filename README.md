@@ -69,5 +69,3 @@ To run **Hercules Printing Pro** alongside other containerized applications (suc
 The host bare-metal NGINX reverse-proxies incoming domain traffic:
 * `http://herculesprintingpro.com` -> `http://127.0.0.1:8081`
 * `https://herculesprintingpro.com` -> `https://127.0.0.1:8441`
-
-A ready-to-use NGINX configuration is available in [nginx-baremetal.conf](../nginx-baremetal.conf).
