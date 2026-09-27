@@ -4,6 +4,7 @@ services:
   nginx:
     image: nginx:stable-alpine
     container_name: hercules-nginx
+    restart: unless-stopped
     ports:
       - "8081:80"
       - "8441:443"
@@ -23,6 +24,7 @@ services:
       context: ./frontend
       dockerfile: ../docker/frontend/Dockerfile
     container_name: hercules-frontend
+    restart: unless-stopped
     volumes:
       - ./frontend:/app
       - node_modules:/app/node_modules
@@ -34,6 +36,7 @@ services:
       context: ./docker/backend
       dockerfile: Dockerfile
     container_name: hercules-backend
+    restart: unless-stopped
     volumes:
       - ./backend:/var/www
     environment:
@@ -43,12 +46,16 @@ services:
       - DB_DATABASE=bagisto
       - DB_USERNAME=hercules
       - DB_PASSWORD=secret
+      - LOKI_HOST=inqed-loki
+      - LOKI_PORT=3100
     networks:
       - hercules-network
+      - inqed-monitoring
 
   postgres:
     image: postgres:15-alpine
     container_name: hercules-postgres
+    restart: unless-stopped
     environment:
       - POSTGRES_DB=bagisto
       - POSTGRES_USER=hercules
@@ -61,12 +68,14 @@ services:
   redis:
     image: redis:alpine
     container_name: hercules-redis
+    restart: unless-stopped
     networks:
       - hercules-network
 
   mailpit:
     image: 'axllent/mailpit:latest'
     container_name: hercules-mailpit
+    restart: unless-stopped
     ports:
       - '${FORWARD_MAILPIT_PORT:-1025}:1025'
       - '${FORWARD_MAILPIT_DASHBOARD_PORT:-8025}:8025'
@@ -76,6 +85,8 @@ services:
 networks:
   hercules-network:
     driver: bridge
+  inqed-monitoring:
+    external: true
 
 volumes:
   postgres-data:

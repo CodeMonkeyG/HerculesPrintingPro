@@ -9,7 +9,7 @@ export default defineConfig({
     vuetify({ autoImport: true }),
   ],
   server: {
-    allowedHosts: ['herculesprintingpro.com', 'www.herculesprintingpro.com'],
+    allowedHosts: true,
   },
 })
 

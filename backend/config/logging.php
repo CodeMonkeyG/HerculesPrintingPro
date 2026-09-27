@@ -54,8 +54,17 @@ return [
 
         'stack' => [
             'driver' => 'stack',
-            'channels' => explode(',', env('LOG_STACK', 'single')),
-            'ignore_exceptions' => false,
+            'channels' => explode(',', env('LOG_STACK', 'single,loki')),
+            'ignore_exceptions' => true,
+        ],
+
+        'loki' => [
+            'driver' => 'custom',
+            'via' => App\Logging\LokiLoggerFactory::class,
+            'level' => env('LOG_LEVEL', 'debug'),
+            'host' => env('LOKI_HOST', 'inqed-loki'),
+            'port' => (int) env('LOKI_PORT', 3100),
+            'app' => env('LOKI_APP_NAME', 'HerculesPrintingPro'),
         ],
 
         'single' => [
