@@ -14,7 +14,7 @@ app.use(head)
 app.use(router)
 app.use(vuetify)
 app.use(VueRecaptchaPlugin, {
-  v2SiteKey: import.meta.env.VITE_RECAPTCHA_SITE_KEY,
+  v2SiteKey: import.meta.env.VITE_RECAPTCHA_SITE_KEY || '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI',
 })
 
 app.mount('#app')
