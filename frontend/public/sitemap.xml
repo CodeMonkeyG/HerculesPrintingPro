@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home -->
+  <url>
+    <loc>https://herculesprintingpro.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Services Directory -->
+  <url>
+    <loc>https://herculesprintingpro.com/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es/servicios</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Service: Business Cards -->
+  <url>
+    <loc>https://herculesprintingpro.com/services/business-cards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/business-cards" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/business-cards" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/business-cards" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es/servicios/business-cards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/business-cards" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/business-cards" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/business-cards" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Banners & Signage -->
+  <url>
+    <loc>https://herculesprintingpro.com/services/banners-signage</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/banners-signage" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/banners-signage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/banners-signage" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es/servicios/banners-signage</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/banners-signage" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/banners-signage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/banners-signage" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Flyers & Brochures -->
+  <url>
+    <loc>https://herculesprintingpro.com/services/flyers-brochures</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/flyers-brochures" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/flyers-brochures" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/flyers-brochures" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es/servicios/flyers-brochures</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/flyers-brochures" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/flyers-brochures" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/flyers-brochures" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Large Format Printing -->
+  <url>
+    <loc>https://herculesprintingpro.com/services/large-format</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/large-format" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/large-format" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/large-format" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es/servicios/large-format</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/large-format" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/large-format" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/large-format" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Custom Apparel -->
+  <url>
+    <loc>https://herculesprintingpro.com/services/custom-apparel</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/custom-apparel" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/custom-apparel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/custom-apparel" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es/servicios/custom-apparel</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/custom-apparel" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/custom-apparel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/custom-apparel" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Stickers & Product Labels -->
+  <url>
+    <loc>https://herculesprintingpro.com/services/stickers-labels</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/stickers-labels" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/stickers-labels" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/stickers-labels" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es/servicios/stickers-labels</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/stickers-labels" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/stickers-labels" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/stickers-labels" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Direct Mail & EDDM -->
+  <url>
+    <loc>https://herculesprintingpro.com/services/direct-mail-eddm</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/direct-mail-eddm" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/direct-mail-eddm" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/direct-mail-eddm" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es/servicios/direct-mail-eddm</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/direct-mail-eddm" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/direct-mail-eddm" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/direct-mail-eddm" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Promotional Products -->
+  <url>
+    <loc>https://herculesprintingpro.com/services/promotional-products</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/promotional-products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/promotional-products" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/promotional-products" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es/servicios/promotional-products</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/promotional-products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/promotional-products" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/promotional-products" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Tech + Print Integration -->
+  <url>
+    <loc>https://herculesprintingpro.com/services/tech-print-integration</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/tech-print-integration" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/tech-print-integration" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/tech-print-integration" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es/servicios/tech-print-integration</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/services/tech-print-integration" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/servicios/tech-print-integration" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/services/tech-print-integration" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About / Nosotros -->
+  <url>
+    <loc>https://herculesprintingpro.com/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/nosotros" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/about" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es/nosotros</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/nosotros" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/about" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact / Contacto -->
+  <url>
+    <loc>https://herculesprintingpro.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/contacto" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/contact" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://herculesprintingpro.com/es/contacto</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://herculesprintingpro.com/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://herculesprintingpro.com/es/contacto" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://herculesprintingpro.com/contact" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
